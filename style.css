@@ -7,78 +7,7 @@
 }
 
 
-a {
 
-  width:100%;
-
-
-
-
-     color:#313131;
-
-
-     position: block;
-     -webkit-animation:colorchange 10s infinite alternate;
-
-}
-
-
-
-@-webkit-keyframes colorchange {
- 0% {
-
-   color: #ff2400;
- }
-
- 10% {
-
-   color: #1de840;
- }
-
- 20% {
-
-   color: #1abc9c;
- }
-
- 30% {
-
-   color: #d35400;
- }
-
- 40% {
-
-   color: #2b1de8;
- }
-
- 50% {
-
-   color: #34495e;
- }
-
- 60% {
-
-   color: #dd00f3;
- }
-
- 70% {
-
-   color: #e8b71d;
- }
- 80% {
-
-   color: #f1c40f;
- }
-
- 90% {
-
-   color: #1ddde8;
- }
-
- 100% {
-
-   color: pink;
- }
-}
 
 
 
@@ -99,7 +28,7 @@ a {
 #master {
   display: grid;
   grid-template-columns: 300px auto auto 300px;
-  grid-template-rows: 100px 500px 300px auto;
+  grid-template-rows: 100px 400px 300px auto;
   grid-gap: 10px;
   padding: 20px;
 font-family: 'EB Garamond', serif;
@@ -109,32 +38,34 @@ font-family: 'EB Garamond', serif;
 #header {
   grid-column: 1 / span 3;
   grid-row: 1 / span 1;
-  background-color: #FA9605;
+  background-color: #F27003;
     font-family: 'EB Garamond', serif;
 }
 
 #main {
   grid-column: 2 / span 2;
   grid-row: 2 / span 2;
-  background-color: #FF0000;
-  border: 3px, #2BF09C;
+  background-color: #000000;
+  border: 3px, #F27003;
   font-family: 'EB Garamond', serif;
+  text-align: center;
 }
 
 #ad1 {
   grid-column: 1 / span 1;
   grid-row: 2 / span 3;
-  background-color: #2EA7CA;
+  background-color: #302D2C;
 }
 
 #right {
   grid-column: 4 / span 1;
   grid-row: 1 / span 3;
-  background-color: #C24CA2;
+  background-color: #302D2C;
 }
 #footer {
   grid-column: 2 / span 3;
   grid-row: 4 / span 1;
+  background-color: #F27003;
  }
 
 #eaglehigh:hover {
