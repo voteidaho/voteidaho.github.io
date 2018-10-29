@@ -1,15 +1,23 @@
 #body {
-    background-color: #000000;
-
+  background-color: #000000;
 }
 
 #title {
   text-align: center;
 }
 
+.logo {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #FA9605;
+    text-align: center;
+}
 
-
-
+#title {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: #F27003;
+}
 
 #name {
   font-family: 'Pacifico', cursive;
@@ -32,7 +40,7 @@ font-family: 'EB Garamond', serif;
 #header {
   grid-column: 1 / span 3;
   grid-row: 1 / span 1;
-  background-color: #F27003;
+  background-color: #9196AD;
     font-family: 'EB Garamond', serif;
 }
 
@@ -40,7 +48,7 @@ font-family: 'EB Garamond', serif;
   grid-column: 2 / span 2;
   grid-row: 2 / span 2;
   background-color: #000000;
-  border: 3px, #F27003;
+  border: 3px solid #F27003;
   font-family: 'EB Garamond', serif;
   text-align: center;
 }
@@ -49,31 +57,24 @@ font-family: 'EB Garamond', serif;
   grid-column: 1 / span 1;
   grid-row: 2 / span 3;
   background-color: #302D2C;
+  border: 3px solid #0015bc;
+  text-align: center;
+  color: #9196AD;
 }
 
 #right {
   grid-column: 4 / span 1;
   grid-row: 1 / span 3;
   background-color: #302D2C;
+  border: 3px solid #E91D0E;
+  text-align: center;
+  color: #9196AD;
 }
 #footer {
   grid-column: 2 / span 3;
   grid-row: 4 / span 1;
-  background-color: #F27003;
+  background-color: #9196AD;
  }
-
-#eaglehigh:hover {
-  background-color: #4BDA1A;
-}
-
-#colored:hover {
-  background-color: #1D9CEE;
-}
-
-#cenn:hover {
-
-  background-color: #DA3D1A;
-}
 
 #this{
   border-radius: 8px;
