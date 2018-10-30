@@ -5,94 +5,92 @@
 
     <meta charset="utf-8">
 
-    <title>Vote Idaho</title>
+    <title>VoteIdaho</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="custom.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="main.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <script>
-    $(document).ready(function(){
-        $("#this").click(function(){
-            $("#this").hide();
-            $("#fixMe").fadeIn("slow");
-        });
-    });
-    </script>
 
 </head>
-
-
-
-
-
-<body id="body">
-
-<h1 class="logo">VoteIdaho</h1>
-
- <button id="this" type="button" class="btn btn-info btn-lg">Click Me</button>
-<div id="fixMe">
-
-
-
-  <div id="master">
-
-
-      <div id="header">
-
-          <h4 id="name">By Brock D. <br /> Will Kellerman <br /> Colby Klauer</h4>
-      </div>
-
-
-
-        <div id="main">
-            <h3>Main</h3>
-            <h4>This will change on which link the person clicks on the right panel</h4>
-        </div>
-
-
-
-          <div id="ad1">
-              <h3>Democrats</h3>
-            <br />
-              <h4>Economy</h4>
-
-
-
-          </div>
-
-
-
-            <div id="right">
-                <h3>Republicans</h3>
-
+<body>
+<nav class="navbar navbar-default navbar-static-top set-nav">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <div>
+                <a class="navbar-brand" href="index.html">VoteIdaho</a>
             </div>
-
-
-
-      <div id="footer">
-          <h3>Footer</h3>
-<h4 id="name">By Brock D. <br /> Will Kellerman <br /> Colby Klauer</h4>
-
-
-      </div>
-
-
-
-  </div>
-
+        </div>
+        <ul class="nav navbar-nav navbar-center">
+            <li><a href="#">Voting Guide</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Positions
+                    <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Governor</a></li>
+                    <li><a href="#">Lt. Governor</a></li>
+                    <li><a href="#">US Rep. District 1</a></li>
+                    <li><a href="#">US Rep. District 2</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Propositions
+                    <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Prop 1</a></li>
+                    <li><a href="#">Prop 2</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="spacer-box"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="col-md-12 boxy quick">
+                <h4>Quick Navigation</h4>
+                <div class="seperator"></div>
+                <div class="spacer-box"></div>
+                <ul>
+                    <li><a href="#">Introduction</a></li>
+                    <li><a href="#">Guide - Page 1</a></li>
+                    <li><a href="#">Guide - Page 2</a></li>
+                    <li><a href="#">Guide - Page 3</a></li>
+                    <li><a href="#">Governor</a></li>
+                    <li><a href="#">Lt. Governor</a></li>
+                    <li><a href="#">US Rep. District 1</a></li>
+                    <li><a href="#">US Rep. District 2</a></li>
+                    <li><a href="#">Prop 1</a></li>
+                    <li><a href="#">Prop 2</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="col-md-12 boxy area">
+                <h6 id="areaTitle">Title</h6>
+                <div class="seperator"></div>
+                <div class="spacer-box"></div>
+                <div id="areaDesc">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-
+<footer>
+    <p>© 2018 VoteIdaho. For school use only, by William Kellermann, Brock Darnall, and Colby Klauer</p>
+</footer>
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </html>

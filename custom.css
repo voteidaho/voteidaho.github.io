@@ -1,0 +1,39 @@
+.navbar {
+    padding: 10px;
+}
+.navbar-default {
+    background-color: #1A1A1A;
+    color: #FE9800;
+    border-width: 0px;
+}
+.navbar-brand {
+    font-size: 48px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #FE9800;
+}
+.navbar-default .navbar-brand {
+    color: #FE9800;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #AAAAAA;
+}
+.dropdown-menu {
+    background-color: #1A1A1A;
+}
+.dropdown-menu > li {
+    background-color: #1A1A1A;
+    border: 0px solid #1A1A1A;
+}
+.dropdown-menu > li > a {
+    color: #FFFFFF;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #AAAAAA;
+    background-color: #555555;
+}
