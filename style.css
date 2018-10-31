@@ -3,14 +3,15 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     color: white;
-    max-width: 1300px;
     margin: auto;
+    max-width: 1200px;
 }
 footer {
     text-align: center;
-    margin-top: 180px;
+    margin-top: 30px;
     color: #AAAAAA;
     font-size: 12px;
+    background-color: #1A1A1A;
 }
 a {
     color: #FFFFFF;
@@ -19,43 +20,24 @@ a:focus,
 a:hover {
     color: #AAAAAA;
 }
-.spacer-box{
-    height: 10px;
+.title {
+    font-family: Arial;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-left: 15px;
 }
-.boxy {
-    border: 2px solid;
-    border-radius: 5px;
-    border-color: #FE9800;
-    height: 600px;
-    background-color: #1A1A1A;
-}
-.quick {
-    padding: 0px;
-}
-.quick > h4 {
+.adcaption {
     text-align: center;
-    font-weight: bold;
-    color: #FE9800;
-}
-.area {
-    padding: 20px;
-}
-.area > div > p {
-    font-size: 24px;
-}
-.area > h6 {
-    font-weight: bold;
-    color: #FE9800;
-    font-size: 36px;
-    margin-left: 20px;
-}
-.area .seperator {
-    width: 99%;
+    padding-top: 5px;
+    font-size: 12px;
+    color: #AAAAAA;
 }
 
-.seperator {
-    height: 2px;
-    width: 85%;
-    margin: auto;
-    background-color: #FE9800;
+.thumbdesc{
+    color: #FE9800;
+    font-size: 16px;
+    padding: 5px;
+}
+.thumbextra {
+
 }

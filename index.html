@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
 
-    <title>VoteIdaho</title>
+    <title>VotingHub</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -20,74 +20,109 @@
     <div class="container-fluid">
         <div class="navbar-header">
             <div>
-                <a class="navbar-brand" href="index.html">VoteIdaho</a>
+                <a class="navbar-brand" href="index.html"><span style="color: white;">Voting</span>Hub</a>
             </div>
         </div>
         <ul class="nav navbar-nav navbar-center">
             <li><a href="#">Voting Guide</a></li>
             <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Positions
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Popular Parties in Idaho
                     <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="#">Governor</a></li>
-                    <li><a href="#">Lt. Governor</a></li>
-                    <li><a href="#">US Rep. District 1</a></li>
-                    <li><a href="#">US Rep. District 2</a></li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Propositions
-                    <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Prop 1</a></li>
-                    <li><a href="#">Prop 2</a></li>
+                    <li><a href="https://gop.com/" style="color: red">Republicans</a></li>
+                    <li><a href="https://democrats.org/" style="color: dodgerblue">Democrats</a></li>
+                    <li><a href="https://www.lp.org/" style="color: yellow">Libertarians</a></li>
+                    <li><a href="https://www.constitutionparty.com/" style="color: mediumpurple">Constitution Party</a></li>
                 </ul>
             </li>
         </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://apps.idahovotes.gov/OnlineVoterRegistration">Register to Vote <span class="glyphicon glyphicon-list-alt"></span></a></li>
+        </ul>
     </div>
 </nav>
-<div class="spacer-box"></div>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-2">
-            <div class="col-md-12 boxy quick">
-                <h4>Quick Navigation</h4>
-                <div class="seperator"></div>
-                <div class="spacer-box"></div>
-                <ul>
-                    <li><a href="#">Introduction</a></li>
-                    <li><a href="#">Guide - Page 1</a></li>
-                    <li><a href="#">Guide - Page 2</a></li>
-                    <li><a href="#">Guide - Page 3</a></li>
-                    <li><a href="#">Governor</a></li>
-                    <li><a href="#">Lt. Governor</a></li>
-                    <li><a href="#">US Rep. District 1</a></li>
-                    <li><a href="#">US Rep. District 2</a></li>
-                    <li><a href="#">Prop 1</a></li>
-                    <li><a href="#">Prop 2</a></li>
-                </ul>
+        <div class="col-md-8">
+            <h3 class="title">Propositions</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="https://saveidahohorseracing.com/"><img src="people/prop1.jpg" width="100%">
+                        <p class="thumbdesc"><span style="font-weight: bold;">[PROP 1]</span> Horse Racing</p>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="https://www.idahoansforhealthcare.org/"><img src="people/prop2.jpg" width="100%">
+                        <p class="thumbdesc"><span style="font-weight: bold;">[PROP 2]</span> Medicaid Expansion</p>
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="col-md-10">
-            <div class="col-md-12 boxy area">
-                <h6 id="areaTitle">Title</h6>
-                <div class="seperator"></div>
-                <div class="spacer-box"></div>
-                <div id="areaDesc">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="col-md-4">
+            <div class="col-md-12">
+                <img src="votingad.png" width="350px" height="350px">
+                <p class="adcaption">Ad by VotingHub</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="title">Governor and Lt. Governor Top Candidates</h3>
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="https://www.bradlittleforidaho.com/"><img src="people/governor-rep.png" width="100%">
+                        <p class="thumbdesc"><span style="font-weight: bold;">[GOVERNOR]</span> Brad Little</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.jordanforgovernor.com/"><img src="people/governor-dem.png" width="100%">
+                        <p class="thumbdesc"><span style="font-weight: bold;">[GOVERNOR]</span> Paulette Jordan</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://janiceforidaho.com/"><img src="people/ltgov-rep.png" width="100%">
+                        <p class="thumbdesc"><span style="font-weight: bold;">[LT. GOVERNOR]</span> Janice McGeachin</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.kristincollum.org/"><img src="people/ltgov-dem.png" width="100%">
+                        <p class="thumbdesc"><span style="font-weight: bold;">[LT. GOVERNOR]</span> Kristin Collum</p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="title">U.S. Representatives Top Candidates - District 1 and 2</h3>
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="http://russfulcher.com/"><img src="people/dist1-rep.png" width="100%">
+                        <p class="thumbdesc"><span style="font-weight: bold;">[US. REP. 1]</span> Russ Fulcher</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://cristinaforcongress.com/"><img src="people/dist1-dem.png" width="100%">
+                        <p class="thumbdesc"><span style="font-weight: bold;">[US. REP. 1]</span> Cristina McNeil</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="http://www.simpsonforcongress.com/"><img src="people/dist2-rep.png" width="100%">
+                        <p class="thumbdesc"><span style="font-weight: bold;">[US. REP. 2]</span> Mike Simpson</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://swisherforidaho.com/"><img src="people/dist2-dem.png" width="100%">
+                        <p class="thumbdesc"><span style="font-weight: bold;">[US. REP. 2]</span> Aaron Swisher</p>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <footer>
-    <p>© 2018 VoteIdaho. For school use only, by William Kellermann, Brock Darnall, and Colby Klauer</p>
+    <p>© 2018 VotingHub. For school use only, by William Kellermann, Brock Darnall, and Colby Klauer.</p>
 </footer>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
